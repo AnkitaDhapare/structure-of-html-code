@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>My Practice Web Page</title>
+
+<style>
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin:0;
+}
+
+/* Header */
+header{
+    background-color:#333;
+    color:white;
+    padding:20px;
+    text-align:center;
+}
+
+/* Navigation bar */
+nav{
+    background-color:#555;
+    padding:10px;
+    text-align:center;
+}
+
+nav a{
+    color:white;
+    margin:15px;
+    text-decoration:none;
+    font-size:18px;
+}
+
+/* Main content */
+.container{
+    padding:30px;
+}
+
+/* Card design */
+.card{
+    background:white;
+    padding:20px;
+    margin:20px 0;
+    border-radius:8px;
+    box-shadow:0px 0px 10px gray;
+}
+
+/* Button */
+button{
+    background-color:#007BFF;
+    color:white;
+    border:none;
+    padding:10px 15px;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+button:hover{
+    background-color:#0056b3;
+}
+
+/* Footer */
+footer{
+    background:#333;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:20px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+<h1>My Web Page</h1>
+<p>HTML and CSS Practice Page</p>
+</header>
+
+<nav>
+<a href="#">Home</a>
+<a href="#">About</a>
+<a href="#">Services</a>
+<a href="#">Contact</a>
+</nav>
+
+<div class="container">
+
+<div class="card">
+<h2>About Me</h2>
+<p>This page is created using HTML and CSS. It shows basic webpage structure and styling.</p>
+<button>Learn More</button>
+</div>
+
+<div class="card">
+<h2>Skills</h2>
+<ul>
+<li>HTML</li>
+<li>CSS</li>
+<li>Excel</li>
+<li>GitHub</li>
+</ul>
+</div>
+
+</div>
+
+<footer>
+<p>© 2026 My Practice Website</p>
+</footer>
+
+</body>
+
+</html>
